@@ -6,11 +6,11 @@ Basic Level (Focus: Syntax, Type Checking, and Core Operators):
 
 3. Calculate the total fare for a ride-hailing app. The base fare is 50, the per-km rate is 12, and the distance is 8.5 km. Store the result in a total_fare variable and round it down to the nearest whole integer using only arithmetic operators (no imported math modules).
 
-4. You are generating AI content and have a boolean variable is_premium_user and an integer daily_generation_limit = 10. Write a single mathematical expression that doubles the limit only if is_premium is True, leveraging the fact that booleans evaluate to integers in Python.
+#4. You are generating AI content and have a boolean variable is_premium_user and an integer daily_generation_limit = 10. Write a single mathematical expression that doubles the limit only if is_premium is True, leveraging the fact that booleans evaluate to integers in Python.
 
 5. Given two variables representing user IDs retrieved from a Supabase database, user_id_1 = "uuid-1234" and user_id_2 = "uuid-1234", write one expression to check if their values are equal, and another expression to check if they are the exact same object in memory.
 
-6. In a music production script, a beat drops every 16 bars. Given a variable current_bar, write an expression using the modulo operator to evaluate to 0 whenever a beat should drop.
+#6. In a music production script, a beat drops every 16 bars. Given a variable current_bar, write an expression using the modulo operator to evaluate to 0 whenever a beat should drop.
 
 7. A FastAPI server has an available memory of 1024 MB. A background task requires 128 MB. Use the correct assignment operator to subtract and update the available memory variable in one step.
 
