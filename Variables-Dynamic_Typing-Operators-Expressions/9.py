@@ -2,4 +2,6 @@
 
 is_online = True
 on_trip = False
-print("Driver is dispatchable")
+
+is_dispatchable = is_online and not on_trip
+print("Driver is dispatchable: ", is_dispatchable)

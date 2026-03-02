@@ -10,6 +10,6 @@ def is_rate_limited():
 def check_password():
     return True
 
-l_to_r = (check_password() and (is_valid_email() and is_rate_limited))
+l_to_r = (is_valid_email() and is_rate_limited()) and check_password()
 
 print(l_to_r) 

@@ -4,6 +4,6 @@ base_fare = 50
 rate_per_km = 12
 distance = 8.5
 
-total_fare = base_fare + (rate_per_km * distance)
+total_fare = base_fare + (rate_per_km * distance) // 1
 
-print(int(total_fare))
+print(total_fare)

@@ -3,7 +3,7 @@
 
 uptime_hours = 45
 
-remaining_days = uptime_hours / 24
+remaining_days = uptime_hours // 24
 
 remaining_hours = uptime_hours % 24
 

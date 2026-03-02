@@ -9,7 +9,7 @@ feature_y = 7
 # print(feature_x)
 # print(feature_y)
 
-feature_x = feature_x | feature_y
+feature_x = feature_x ^ feature_y
 feature_y = feature_x ^ feature_y
 feature_x = feature_x ^ feature_y
 

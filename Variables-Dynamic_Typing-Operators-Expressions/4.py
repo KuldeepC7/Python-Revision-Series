@@ -5,6 +5,7 @@ daily_generation_limit = 0
 
 
 
-daily_generation_limit = (is_premium_user > 0) * 20 + (is_premium_user <= 0) * 10 #How this line is working, explain me
+# daily_generation_limit = (is_premium_user > 0) * 20 + (is_premium_user <= 0) * 10 #How this line is working, explain me
+daily_generation_limit = 10 + (is_premium_user * 10)
 
 print(daily_generation_limit)

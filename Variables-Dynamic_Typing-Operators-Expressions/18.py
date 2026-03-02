@@ -4,4 +4,6 @@ mask = 0b10101010
 inversion_mask = ~mask
 print(inversion_mask)
 
-# I dont knwo why this happens please explain me this in very easy way
+#Computers store integers using "Two's Complement". The very first bit on the far left is the "sign bit" (0 for positive, 1 for negative). When you use ~ to flip all the bits, you are also flipping the sign bit, turning a positive number into a negative one. 
+
+# Mathematically, ~x is always equal to -(x + 1).

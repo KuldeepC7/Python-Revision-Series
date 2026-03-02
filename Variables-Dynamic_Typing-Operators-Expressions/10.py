@@ -2,5 +2,5 @@
 
 
 base_configuration_value = 2
-new_system_permission = 2 << 8
+new_system_permission = 2 << 3
 print(new_system_permission)

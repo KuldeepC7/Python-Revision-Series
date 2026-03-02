@@ -6,6 +6,6 @@ print(available_memory)
 
 background_tasks_memory_requirement = 128
 
-available_memory = available_memory - background_tasks_memory_requirement
+available_memory -= background_tasks_memory_requirement
 
-print(available_memory)
+print(available_memory) 
