@@ -4,7 +4,7 @@ password = input('Enter password: ')
 is_strong = False
 
 if len(password) > 8:
-    if '!' or '@' in password:
+    if '!' in password or '@' in password:
         is_strong = True
 
 print(is_strong)

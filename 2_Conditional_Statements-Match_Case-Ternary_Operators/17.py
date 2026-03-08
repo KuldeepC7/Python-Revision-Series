@@ -4,7 +4,9 @@ user_banned = bool(int(input('Is user banned or not: ')))
 driver_available = bool(int(input('Is driver available: ')))
 distance_in_km = eval(input('Enter distance in km: '))
 
-ride_accepted = True if (driver_available and not user_banned and (distance_in_km < 50)) else False
+# ride_accepted = True if (driver_available and not user_banned and (distance_in_km < 50)) else False
+
+ride_accepted = driver_available and not user_banned and (distance_in_km < 50)
 
 # ride_accepted = False
 # if not user_banned:

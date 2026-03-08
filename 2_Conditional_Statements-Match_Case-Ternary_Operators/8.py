@@ -2,5 +2,8 @@
 
 patient_age = int(input('Enter patient age: '))
 
-admission_allowed = True if patient_age >= 18 else False
+# admission_allowed = True if patient_age >= 18 else False
+
+
+admission_allowed = patient_age >= 18
 print(admission_allowed)
