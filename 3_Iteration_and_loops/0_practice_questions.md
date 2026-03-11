@@ -65,7 +65,7 @@ Advanced Level (Focus: Simulating state machines, retry algorithms, optimization
 24. Batch Processing: Your backend needs to process 100 data rows using range(1, 101). However, to prevent memory overflow, you must trigger a garbage collection cycle every 20 rows. Write a for loop that iterates through the 100 rows, and uses the modulo operator (%) to print "Clearing memory..." exactly on rows 20, 40, 60, 80, and 100.
 
 25. Cryptographic Prime Checker: A backend security module needs to verify if a number is prime to generate keys. Ask for an integer via input(). Use a for loop from 2 up to number // 2. If the number is evenly divisible by the loop variable, break (it's not prime). Use the else clause to confidently declare it a prime number.
-
+ 
 26. State Machine: Simulate the lifecycle of a ride request. Create a variable state = "SEARCHING". Write a while True loop. Inside, use a match/case block based on state.
 
     If SEARCHING, wait for input("Found driver? (y/n): "), if 'y', change state to "ARRIVED".
