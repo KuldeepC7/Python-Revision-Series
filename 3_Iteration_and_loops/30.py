@@ -6,7 +6,7 @@ left_index = 0
 right_index = 5
 
 while left_index <= right_index:
-    print(f'values: {left_index} and {right_index}')
+    print(f'values: {sorted_integers[left_index]} and {sorted_integers[right_index]}')
     
     left_index += 1
     right_index -= 1

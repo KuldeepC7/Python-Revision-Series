@@ -3,7 +3,7 @@
 daily_earning_goal = 500
 riders_earning_today = 0
 
-while daily_earning_goal >= riders_earning_today:
+while riders_earning_today < daily_earning_goal:
     ride_fare = float(input('Enter current ride fare: '))
     riders_earning_today += ride_fare
 

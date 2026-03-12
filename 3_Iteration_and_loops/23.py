@@ -2,14 +2,14 @@
 
 nearby_cab_distances = (12, 8, 15, 3, 9)
 
-shortest_distance = 0
+# shortest_distance = 0
+shortest_distance = nearby_cab_distances[0]
 
 for distance in nearby_cab_distances:
-    if nearby_cab_distances[0] == distance:
-        shortest_distance = distance
+    # if nearby_cab_distances[0] == distance:
+    #     shortest_distance = distance
     
-    else:
-        if shortest_distance > distance:
-            shortest_distance = distance
+    if shortest_distance > distance:
+        shortest_distance = distance
 
 print(shortest_distance)

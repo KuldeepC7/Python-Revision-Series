@@ -4,4 +4,5 @@ PIN = int(input('Enter your admin pin: '))
 
 for guess in range(1000):
     if guess == PIN:
-        print(guess)
+        print(guess + 1)
+        break

@@ -3,7 +3,7 @@
 number = int(input('Enter the number of which you want factorial: '))
 factorial = 1
 
-while number != 0:
+while number > 0:
     factorial *= number
     number -= 1
 
