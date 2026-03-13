@@ -2,8 +2,7 @@
 
 1. You are building the notification engine for the Safar ride-hailing app. Create variables for `driver_name` and `vehicle_number`. Write an `f-string` to generate a welcome message: "Your driver, [Name], is arriving in [Number]".
 
-2. A patient's blood pressure data from legacy medical hardware at Kataria Multispecialist Hospital arrives with messy 
-whitespace: `"  120/80 \n"`. Use the `.strip()` method to clean it and store it in a new variable.
+2. A patient's blood pressure data from legacy medical hardware at Kataria Multispecialist Hospital arrives with messy whitespace: `"  120/80 \n"`. Use the `.strip()` method to clean it and store it in a new variable.
 
 3. In your Coder's Loop platform, a course video is uploaded with the filename `"intro_to_python_programming"`. Use the `.replace()` method to change all underscores to spaces for the frontend display.
 
